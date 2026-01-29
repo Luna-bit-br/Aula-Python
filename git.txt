@@ -1,0 +1,11 @@
+git --version     'Checar versão'
+git config --global user.name "SeuNomeAqui" 'Logar com seu usuário'
+git config --global user.email "seuemail@exemplo.com" 'Logar email'
+
+git init  'Iniciar o Envio'
+git add nomeDoArquivo.ext    'Adiciona arquivo pelo nome'
+git add .    'Adiciona todos os arquivos da pasta'
+git commit -m "Primeiro commit" 'Abre o commit para realizar envio'
+git remote add origin https://github.com/SeuUsuario/NomeDoRepositorio.git 'Adicionar o caminho até o repositório'
+git branch -M main 'Cria um branch por onde será enviado o arquivo'
+git push -u origin main  'Finaliza o envio do arquivo'

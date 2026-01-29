@@ -94,7 +94,7 @@ print(nomes)
 # -----------------------------------------------------
 # 8) CADASTRO DE ALUNO (LISTA + DICIONÁRIO)
 # -----------------------------------------------------
-
+"""
 alunos = []
 
 nome = input("Nome do aluno: ")
@@ -111,7 +111,7 @@ alunos.append(aluno)
 
 print("\n Alunos cadastrados: \n")
 print(alunos)
-
+"""
 
 
 # -----------------------------------------------------
@@ -141,7 +141,7 @@ print("Resultado:", resultado)
 # -----------------------------------------------------
 # 11) JOGO DE ADIVINHAÇÃO
 # -----------------------------------------------------
-"""
+
 import random
 
 numero_secreto = random.randint(1, 10)
@@ -154,7 +154,6 @@ while True:
         break
     else:
         print("Tente novamente")
-"""
 
 
 # -----------------------------------------------------
